@@ -1,0 +1,14 @@
+{
+  "domain": "verizon_5g",
+  "name": "Verizon 5G Gateway",
+  "version": "0.1.1",
+  "config_flow": true,
+  "documentation": "https://github.com/BluThunder2k/ha-verizon-5g",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "requirements": [],
+  "codeowners": [
+    "@BluThunder2k"
+  ],
+  "issue_tracker": "https://github.com/BluThunder2k/ha-verizon-5g/issues"
+}
