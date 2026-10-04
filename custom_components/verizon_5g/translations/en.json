@@ -1,0 +1,53 @@
+{
+  "title": "Verizon 5G Gateway",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect your Verizon gateway",
+        "description": "Connect locally to an ASK-NCM1100. Leave certificate verification off for its factory self-signed certificate. The gateway password is stored in Home Assistant configuration.",
+        "data": {
+          "name": "Device name",
+          "host": "Gateway host or IP address",
+          "password": "Gateway admin password",
+          "poll_interval": "Polling interval (seconds)",
+          "verify_ssl": "Verify HTTPS certificate"
+        }
+      },
+      "reconfigure": {
+        "title": "Change gateway settings",
+        "description": "Connect locally to an ASK-NCM1100. Leave certificate verification off for its factory self-signed certificate. The gateway password is stored in Home Assistant configuration.",
+        "data": {
+          "name": "Device name",
+          "host": "Gateway host or IP address",
+          "password": "Gateway admin password",
+          "poll_interval": "Polling interval (seconds)",
+          "verify_ssl": "Verify HTTPS certificate"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-enter gateway credentials",
+        "description": "Connect locally to an ASK-NCM1100. Leave certificate verification off for its factory self-signed certificate. The gateway password is stored in Home Assistant configuration.",
+        "data": {
+          "name": "Device name",
+          "host": "Gateway host or IP address",
+          "password": "Gateway admin password",
+          "poll_interval": "Polling interval (seconds)",
+          "verify_ssl": "Verify HTTPS certificate"
+        }
+      }
+    },
+    "error": {
+      "invalid_host": "Enter a hostname or IP address, without a port or path.",
+      "invalid_auth": "Gateway rejected authentication. Check the admin password before trying again.",
+      "gateway_busy": "Gateway sessions are full or login is temporarily locked. Wait before trying again.",
+      "unsupported_model": "This version supports ASK-NCM1100 only.",
+      "cannot_connect": "Unable to read gateway data. Check the address, network access and HTTPS certificate setting.",
+      "wrong_device": "This address belongs to a different gateway. Add it as a new integration."
+    },
+    "abort": {
+      "already_configured": "This gateway is already configured.",
+      "reauth_successful": "Authentication updated.",
+      "reconfigure_successful": "Gateway settings updated."
+    }
+  }
+}
