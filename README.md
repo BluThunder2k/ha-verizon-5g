@@ -4,11 +4,11 @@
 
 Local monitoring for the **Askey ASK-NCM1100 Verizon 5G gateway**. No cloud account, MQTT broker, or separate polling service required.
 
-Version **0.1.1**. Requires **Home Assistant 2026.9.0 or later**. Community project, not affiliated with or endorsed by Verizon or Askey.
+Version **0.1.2**. Requires **Home Assistant 2026.9.0 or later**. Community project, not affiliated with or endorsed by Verizon or Askey.
 
 ## Supported hardware
 
-Live telemetry has been confirmed with **ASK-NCM1100**, firmware **3.6.0.5**, on **Home Assistant 2026.9.2**. Other models, including ASK-NCM1100E and its business dual-WAN mode, are not supported. Session-expiry and error recovery have automated simulated-gateway coverage; extended real-device soak testing is still ongoing.
+Live telemetry has been confirmed with **ASK-NCM1100**, firmware **3.6.0.5**, on **Home Assistant 2026.9.2**. Other models, including ASK-NCM1100E and its business dual-WAN mode, are not tested. Session-expiry and error recovery have automated simulated-gateway coverage; extended real-device soak testing is still ongoing.
 
 ## Install with HACS
 
